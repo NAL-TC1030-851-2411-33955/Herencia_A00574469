@@ -26,3 +26,7 @@ void Figura::setY(int y_){
 std::string Figura::dibuja(){
     return "Soy una figura";
 }
+
+void Figura::imprime(){
+    std::cout<<dibuja()<<std::endl;
+}
