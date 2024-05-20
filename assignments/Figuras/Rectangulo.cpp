@@ -46,6 +46,9 @@ double Rectangulo::perimetro(){
 void Rectangulo::imprime(){
     std::cout<<"Base = "<<base<<std::endl;
     std::cout<<"Altura = "<<altura<<std::endl;
+    std::cout<<"CoordenadaX = "<<getX()<<std::endl;
+    std::cout<<"CoordenadaY = "<<getY()<<std::endl;
+    std::cout<<"Altura = "<<altura<<std::endl;
     std::cout<<"Area = "<<area()<<std::endl;
     std::cout<<"Perimetro = "<<perimetro()<<std::endl;
 }
